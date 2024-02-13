@@ -1,0 +1,125 @@
+::-webkit-scrollbar {
+    display: none;
+}
+
+body{
+    margin:0px;
+    background-image: url(img/paper.jpg);
+    background-size: contain;
+    
+    box-sizing: border-box; /*шоб когда ты писал размер 600px у тебя в эти 600px уже входили все паддинги*/
+    height: 900vh;
+    font-size: 20px;
+
+}
+.navbar{
+    width: 80vw;    
+    padding-inline:10vw;
+    background-color: rgba(0,0,0,0.4);
+    color: white;
+    font-size: 1.5em;
+    display: flex;
+    position: fixed;
+}
+.navblock{
+    flex:1;
+    padding:1rem;
+}
+
+.centered{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+.container{
+    width: 70vw;
+    padding-inline:15vw;
+}
+.hero-main{
+    background-image: url(img/bck.jpg);
+    height: 90vh;
+    background-color: rgba(0,0,0,0.5);
+    background-blend-mode: multiply;
+    background-size: cover;
+    width: 100%;
+    padding-top: 2vh;
+    display:  flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+a, h1 {
+    overflow-x: scroll;
+}
+.hero-main a{
+    width: 30vw;
+    color: white;
+}
+.hero-main img { /*стили работают только в тех img, которые находятся внутри hero-main*/
+    width: 100%;
+}
+.hero-main .short_container{
+    width: 15vw;
+    margin-top:7vh;
+}
+.desc-main{
+    width: 100%;
+    padding-top: 5vh;
+}
+.desc-main > .container{
+    display: flex;
+    padding-top: 2vh;
+}
+.desc-main img{
+    width: 25%;
+}
+.desc-main .short_container{
+    width: 70%;
+}
+
+.desc-main button { /*ее я спиздил */
+    margin-top: 2vh;
+    display: inline-block;
+    padding: .75rem 1.25rem;
+    border-radius: 10rem;
+    border: 2px solid #FF8C00 ;
+    color: #FF8C00;
+    text-transform: uppercase;
+    font-size: 1rem;
+    font-weight: bold;
+    letter-spacing: .15rem;
+    transition: all .3s;
+    position: relative;
+    overflow: hidden;
+    z-index: 1;
+    background: transparent;
+    &:after {
+      content: '';
+      position: absolute;
+      bottom: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      background-color: transparent;
+      border-radius: 10rem;
+      z-index: -2;
+    }
+    &:before {
+      content: '';
+      position: absolute;
+      bottom: 0;
+      left: 0;
+      width: 0%;
+      height: 100%;
+      background-color:#ffe6c781;
+      transition: all .3s;
+      border-radius: 10rem;
+      z-index: -1;
+    }
+    &:hover {
+      color: #FF8C00;
+      &:before {
+        width: 100%;
+      }
+    }
+  }
