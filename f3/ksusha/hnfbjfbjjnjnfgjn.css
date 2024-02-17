@@ -1,0 +1,53 @@
+::-webkit-scrollbar{
+    display: none;
+}
+.top{
+    position: fixed;
+    height: 60px;
+    background-color: transparent;
+    width: 96vw;
+    color: rgb(255, 255, 255);
+    font-size: 30px;
+    font-weight: bold;
+    display: flex;
+    justify-content: space-between;
+    padding-inline: 2vw;
+    align-items: center;
+}
+
+    a:link, a:visited{
+        color: rgb(0, 13, 24);
+        text-decoration: none;
+    }
+
+body{
+    margin: 0ph;
+}
+.qwe{
+    height: 100vh;
+    width:100vw;
+    color: rgb(255, 255, 255);
+    background:url(https://avatars.dzeninfra.ru/get-zen_doc/271828/pub_6558c6e3519240465ea8ef91_6558c7c46a195e50b2865f08/scale_1200);
+    background-color:rgba(3, 47, 1,0.5);
+    background-size:cover;
+    background-repeat:no-repeat;
+    background-position:bottom center;
+    background-blend-mode:multiply;
+}
+.o{
+    width: 70vw;                        
+    display: flex;
+}
+.box{
+    flex: 2;
+    background-color: rgb(255, 255, 255);
+    height: 100px;
+    align-items: center;
+    color: rgb(0, 0, 0);
+    display: flex;
+}
+.o button{
+    background-color: brown;
+    color: aliceblue;
+    flex: 1;
+}

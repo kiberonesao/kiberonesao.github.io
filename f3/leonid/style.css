@@ -1,7 +1,27 @@
-    <html>
-    <head>
-        <style>
-            body{
+ ::-webkit-scrollbar{
+    display: none;
+ }
+.top_menu{
+    position: fixed;
+    height: 60px;
+    background-color: transparent;
+    width: 98vw;
+    color: white;
+    font-size: 20px;
+    font-weight: bold;
+    display: flex;
+    justify-content: space-between;
+    padding-inline: 1vw;
+    align-items: center;
+}
+a:link, a:visited{
+    color: inherit;
+    text-decoration: none;
+}
+nav a:hover{
+    text-decoration: underline;
+}
+ body{
                 margin:0px
             }
             .hero{
@@ -35,22 +55,3 @@
                 border-top-right-radius: 10px;
                 border:0;
             }
-
-        </style>
-    </head>
-<body>
-    <div class="hero">
-    <div style="padding: 10%;">
-        <h1 style="font-size:100px">Купи праздник в пиццерии!</h1>
-    </div>
-    <div class="Polosa">
-    <div class="box"> </div>
-    <div class="box">Тут место для рекламы</div>
-    <div class="box">Место</div>
-    <div class="box">Цена</div>
-    <div class="box">Дата</div>
-    <a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ"><button class="box">Забронировать</button></a>
-    </div>
-</div>
-</body>
-</html>
