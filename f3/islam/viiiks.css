@@ -20,10 +20,10 @@ body{ margin:0}
     height: 100px;
     flex-direction: column;
     align-items: flex-start;
-    align-items: center;
     color: black;
     justify-content: center;
     display:flex ;
+
 }
 .polosa button{
     background-color: coral;
@@ -51,20 +51,18 @@ nav a:link {
     text-decoration: none;
 }
 nav a:visited{
-
     color:indianred;
 }
-nav a:hover, nav :active{
-   border-bottom: solid black 2px;
-   transition:ease-out 1s;
+nav a:hover, nav a:active{
+    text-decoration: underline;
 }
 
 .menu_box button{
     border-radius: 5px;
     height: 30px;
     width: 100px;
-    font-size: inherit;
-    font-weight: normal;
+    font-size: inherit; 
+    font-weight: inherit;
     color: white;
     border: 0px;
 }
@@ -74,19 +72,16 @@ nav a:hover, nav :active{
 }
 
 .button_sign_up{
-    background-color: #428b79;
+    background-color: brown;
 }
 
 .button_login:hover{
-    font-weight:bold;
-    border: solid white 1px; 
+    background-color: transparent;
+    border: solid white 1px;
     transition: 1s;
 }
 
 .button_sign_up:hover{
-    background-color: #1c352e;
+    background-color: rgb(129, 31, 31);
     transition: 1s;
 }
-
-
-

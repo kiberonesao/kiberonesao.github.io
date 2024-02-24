@@ -16,17 +16,16 @@ body{ margin:0}
 }
 .box{
     flex:2;
-    background-color: rgb(53, 167, 161);
+    background-color: rgb(255, 255, 255);
     height: 100px;
     flex-direction: column;
     align-items: flex-start;
-    align-items: center;
+    justify-items: center;
     color: black;
-    justify-content: center;
     display:flex ;
 }
 .polosa button{
-    background-color: coral;
+    background-color: rgb(255, 100, 72);
     color: white;
     flex:1;
     border-bottom-right-radius:10px;
@@ -46,47 +45,49 @@ body{ margin:0}
     padding-inline: 1vw;
     align-items: center;
 }
-nav a:link {
-    color:yellowgreen;
+a:link {
+    color:inherit;
     text-decoration: none;
-}
-nav a:visited{
 
-    color:indianred;
 }
-nav a:hover, nav :active{
-   border-bottom: solid black 2px;
-   transition:ease-out 1s;
+:visited{
+    color:rgb(254, 254, 254);
 }
-
+nav a:hover{
+    border-bottom: solid black 1px;
+    transition: cubic-bezier(0.075, 0.82, 0.165, 1)
+}
+.button_login{
+    background-color: transparent;
+    height: 80;
+    font-size: inherit;
+    font-weight: inherit;
+    color: white;
+    border: 0px;
+}
 .menu_box button{
-    border-radius: 5px;
+    border-radius: 10px;
     height: 30px;
     width: 100px;
     font-size: inherit;
     font-weight: normal;
-    color: white;
     border: 0px;
+    color:inherit;
 }
-
 .button_login{
     background-color: transparent;
 }
 
 .button_sign_up{
-    background-color: #428b79;
+    background-color: rgb(255, 84, 58);
 }
 
 .button_login:hover{
-    font-weight:bold;
-    border: solid white 1px; 
-    transition: 1s;
+    font-weight: bold;
+    background-color: transparent;
 }
 
 .button_sign_up:hover{
-    background-color: #1c352e;
-    transition: 1s;
+    font-weight: bold;
+    background-color: rgb(255, 84, 58);
 }
-
-
-

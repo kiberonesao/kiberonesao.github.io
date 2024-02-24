@@ -27,8 +27,9 @@ a:link, a:visited{
     text-decoration: none;
     
 }
-nav a :hover{
-text-decoration: underline;
+nav a :hover, nav a:active{
+border-bottom:solid black 2px ;
+ transition: ease-out 1s;
 }
 
 body{
@@ -53,9 +54,12 @@ body{
     flex:2;
     background-color: white;
     height: 100px;
+    flex-direction: column;
     display: flex;
-    align-items: center;
+    align-items: flex-start;
     color:black;
+    justify-content: center;
+
 }
 .polosa button{
     background-color: orange;
@@ -65,3 +69,28 @@ body{
     border-top-right-radius: 10px;
     border:0;
 }
+
+.menu_box button{
+    border-radius: 5px;
+   height: 30px;
+   width: 100px;
+   font-size: inherit;
+   font-weight: normal;
+   color: white;
+   border: 0px;
+}
+.button_login:hover{
+  font-weight: bold;
+  border:solid white 1px;
+  transition: 1s;
+}
+.button_sing_up:hover{
+   background-color: gold;
+   transition: 1s;
+}
+.button_login{
+    background-color: transparent;
+    }
+    .button_sing_up{
+    background-color: gold;
+    }

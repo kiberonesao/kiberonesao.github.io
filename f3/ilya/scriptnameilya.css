@@ -39,9 +39,11 @@ body{
     flex:2;
     background-color: blue;
     height: 100px;
+    flex-direction: column;
     align-items: center;
     color:black;
     display:flex;
+    justify-content: center;
 }
 .likvidirovanie button{
     background-color: darkblue;
@@ -49,4 +51,17 @@ body{
     flex:1;
 
     border:0px;
+}
+
+.button_hack{
+    background-color: transparent;
+    height: 30px;
+    width: 100px;
+    font-size:inherit;
+    font-weight: normal;
+    color:aqua;
+    border: 100px;
+}
+.button_hack:hover{
+display: none;
 }
