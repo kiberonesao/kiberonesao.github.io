@@ -1,84 +1,111 @@
- ::-webkit-scrollbar{
-    display: none;
+::-webkit-scrollbar{
+display: none;
  }
 .top_menu{
-    position: fixed;
-    height: 60px;
-    background-color: transparent;
-    width: 98vw;
-    color: white;
-    font-size: 20px;
-    font-weight: bold;
-    display: flex;
-    justify-content: space-between;
-    padding-inline: 1vw;
-    align-items: center;
+position: fixed;
+height: 60px;
+background-color: transparent;
+width: 98vw;
+color: white;
+font-size: 20px;
+font-weight: bold;
+display: flex;
+justify-content: space-between;
+padding-inline: 1vw;
+align-items: center;
 }
 a:link, a:visited{
-    color: inherit;
-    text-decoration: none;
+color: inherit;
+text-decoration: none;
 }
 nav a:hover {
-    -decoration: underline;
+-decoration: underline;
 }
- body{
-    margin:0px
+body{
+margin:0px
 }
-            .hero{
-                height: 100vh;
-                background-color: rgba(0,0,0,0,5);
-                background-blend-mode: multiply;
-                color: white;
-                width : 100vw;
-                background-size: cover;
-                background-repeat: no-repeat;
-                background-position: bottom center;
-                background-image:url(https://i.ytimg.com/vi/l0bqiFK8MgQ/maxresdefault.jpg) ;
-            }
-            .Polosa{
-                width: 70vw;
-                display: flex;
-            }
-            .box{
-                flex:2;
-                background-color: white;
-                height: 100px;
-                flex-direction: column;
-                align-items: center;
-                color: black ;
-                justify-content: center;
-                display: flex;
-            }
-            .Polosa button{
-                background-color: crimson;
-                color: white;
-                flex:1;
-                border-bottom-right-radius: 10px;
-                border-top-right-radius: 10px;
-                border:0;
-            }
-
-            .menu_box button{
-                border-radius: 5px;
-                width:200px;
-                height:40px;
-                font-size: inherit;
-                font-weight: inherit;
-                color: white;
-                border: 0px;
-            }
-            .button_login{
-                background-color: transparent;
-            }
-            .button_sign_up{
-                background-color: rgb(80, 0, 0);
-            }
-
-            .button_login:hover{
-                font-weight: bold;
-                transition: 1s;
-            }
-            .button_sign_up{
-                background-color: red;
-                transition: 1s;
-            }
+.hero{
+height: 100vh;
+background-color: rgba(0,0,0,0,5);
+background-blend-mode: multiply;
+color: white;
+width : 100vw;
+background-size: cover;
+background-repeat: no-repeat;
+background-position: bottom center;
+background-image:url(https://i.ytimg.com/vi/l0bqiFK8MgQ/maxresdefault.jpg) ;
+}
+.Polosa{
+width: 70vw;
+display: flex;
+}
+.box{
+flex:2;
+background-color: white;
+height: 100px;
+flex-direction: column;
+align-items: center;
+color: black ;
+justify-content: center;
+display: flex;
+}
+.Polosa button{
+background-color: crimson;
+color: white;
+flex:1;
+border-bottom-right-radius: 10px;
+border-top-right-radius: 10px;
+border:0;
+}
+.menu_box button{
+border-radius: 5px;
+width:200px;
+height:40px;
+font-size: inherit;
+font-weight: inherit;
+color: white;
+border: 0px;
+}
+.button_login{
+background-color: transparent;
+}
+.button_sign_up{
+background-color: rgb(80, 0, 0);
+}
+.button_login:hover{
+font-weight: bold;
+transition: 1s;
+}
+.button_sign_up{
+background-color: red;
+transition: 1s;
+}
+.section{
+    padding: top 5vh bottom 50vh;
+    padding-bottom: 5vh;
+    padding-left: 10vw;
+    color:black;
+}
+.container{
+    display: flex;
+    justify-content: space-between;
+}
+hr{
+    border:solid 3px brown;
+    width: 15vw;
+}
+.button_cont{
+    display: flex;
+    align-items: end;
+    padding-right: 2vw;
+}
+.button_cont button{
+    width: 50px;
+    height: 50px;
+    color: white;
+    background-color: black;
+    font-size: 30px;
+    margin: 5px;
+    border-radius: 5px;
+    border: 0px;
+}

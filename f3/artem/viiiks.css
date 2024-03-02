@@ -3,7 +3,7 @@
     height: 100vh;
     width: 100vw;
     background-color:rgba(0,0,0,0.5);
-    background-image: url(https://mykaleidoscope.ru/x/uploads/posts/2022-10/1666398982_58-mykaleidoscope-ru-p-kulturnii-landshaft-khalshtatt-dakhshtain-65.jpg);
+    background-image: url(https://i.ytimg.com/vi/ISTZcTZj3uU/maxresdefault.jpg?7857057827   );
     background-size: cover;
     background-repeat: no-repeat;
     background-position: bottom center;
@@ -84,4 +84,75 @@ nav a:hover, nav a :active{
 .button_sign_up:hover{
     background-color: rgb(75, 12, 12);
     transition: 1s;
+}
+
+.hero2{
+    height: 120vh;
+    width: 100vw;
+    background-color:rgba(0,0,0,0.5);
+    background-image: url(https://avatars.mds.yandex.net/i?id=d5014ad06c404204b831865218b10516-4576013-images-thumbs&n=13);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: bottom center;
+    background-blend-mode:multiply;
+}
+
+.liniya{
+    width: 70vw;
+    display: flex;
+}
+
+.box2{
+    flex:2;
+    background-color: rgb(0, 0, 0);
+    background-image:url(https://avatars.mds.yandex.net/i?id=383618a2f5a43430497037a51324ab22d16f706e-9066494-images-thumbs&ref=rim&n=33&w=356&h=200);
+    height: 300px;
+    width: 300px;
+    flex-direction: column;
+    align-items: flex-start;
+    color: black;
+    justify-content: center;
+    display:flex ;
+}
+
+.box3{
+    flex:2;
+    height: 300px;
+    width: 100px;
+    flex-direction: column;
+    align-items: flex-start;
+    color: black;
+    justify-content: center;
+    display:flex ;
+}
+
+.box4{
+    flex:2;
+    background-color: rgb(0, 0, 0);
+    background-image:url(https://i.ytimg.com/vi/RLx5kFzXVqc/maxresdefault.jpg);
+    height: 300px;
+    width: 300px;
+    flex-direction: column;
+    align-items: flex-start;
+    color: black;
+    justify-content: center;
+    display:flex ;
+}
+.section{
+    padding-left:10vw;
+}
+
+.card{
+    border-radius: 25px;
+    background-color: white;
+    height: 400px;
+    width: 300px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: bottom center;
+    background-blend-mode:multiply;
+}
+
+#card1{
+    background-image: url(https://i.ytimg.com/vi/CsT6bjRju8M/maxresdefault.jpg );
 }

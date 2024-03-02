@@ -91,3 +91,28 @@ nav a:hover{
     font-weight: bold;
     background-color: rgb(255, 84, 58);
 }
+
+.section{
+    padding-top: 5vh;
+    padding-bottom: 5vh;
+    padding-left: 10vw;
+    color: black;
+}
+.container{
+    display: flex;
+    justify-content: space-between;
+}
+hr{
+ border-color: brown;
+ width: 30vw;
+}
+.button_cont button{
+    width: 40px;
+    height: 40px;
+    color: #fff;
+    background-color: #000000;
+    font-size: 30px;
+    margin: 5px;
+    border-radius: 3px;
+    
+}

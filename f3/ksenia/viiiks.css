@@ -1,3 +1,5 @@
+
+
 .hero{
     height: 100vh;
     width: 100vw;
@@ -15,14 +17,15 @@ body{ margin:0}
 }
 .box{
     flex:2;
-    background-color: rgb(47, 168, 162);
+    background-color: rgb(53, 167, 161);
     height: 100px;
     flex-direction: column;
     align-items: flex-start;
-    align-items: center;
     color: black;
     justify-content: center;
-    display:flex ;
+    display:flex;
+
+    
 }
 .polosa button{
     background-color: coral;
@@ -48,20 +51,20 @@ body{ margin:0}
 nav a:link {
     color:yellowgreen;
     text-decoration: none;
+
 }
 nav a:visited{
-
     color:indianred;
 }
-nav a:hover, nav :active{
-   border-bottom: solid black 2px;
-   transition:ease-out 1s;
+nav a:hover, nav a:active{
+    border-bottom: solid black 2px;
+    transition: ease-out 1s;
 }
 
 .menu_box button{
     border-radius: 5px;
     height: 30px;
-    width: 100px;
+    width: 100px; 
     font-size: inherit;
     font-weight: normal;
     color: white;
@@ -72,49 +75,46 @@ nav a:hover, nav :active{
     background-color: transparent;
 }
 
-.button_sign_up{
-    background-color: #428b79;
+.button_sing_up{
+    background-color: brown;
 }
 
 .button_login:hover{
-    font-weight:bold;
-    border: solid white 1px; 
+    font-weight: bold;
+    border: solid white 1px;
     transition: 1s;
 }
 
-.button_sign_up:hover{
-    background-color: #1c352e;
+.button_sing_up:hover{
+    background-color: rgb(88, 12, 12);
     transition: 1s;
 }
-
-
 .section{
-  padding-top: 5vh;
-  padding-bottom: 5vh;
-  padding-left: 10vw;
-  color: black;
-}                
+    padding-top:  5vh;
+    padding-bottom: 50vh;
+    padding-left: 10vw;
+    color: black;
+}
 .container{
     display: flex;
-    justify-content:space-between;
+    justify-content: space-between;
 }
-hr{
-    border-color: rgb(75, 144, 175);
-    width: 30vw;
-}
-.button_cont{
-    display: flex;
-    align-items: end;
-    padding-right: 2vw;
-}
-
-.button_cont button{
-    width: 50px;
-    height: 50px;
-    color: lavenderblush;
-    background-color: rgb(68, 145, 109);
-    font-size: 30px;
-    margin: 5px;
-    border-radius: 5px;
-    border: 0px;
-}
+      hr{
+        border-color: brown;
+        width: 30vw;
+      }
+      .button_cont{
+        display: flex;
+        align-items: end;
+        padding-right: 2vw;
+      }
+      .button_cont .button{
+        width: 50px;
+        height: 50px;
+        color: aliceblue;
+        background-color: black;
+        font-size: 30px;
+        margin: 5px;
+        border-radius: 5px;
+        border: 0px;
+      }

@@ -56,7 +56,8 @@ body{
     height: 100px;
     flex-direction: column;
     display: flex;
-    align-items: flex-start;
+    align-items: flex-start
+    size 10px;
     color:black;
     justify-content: center;
 
@@ -94,3 +95,32 @@ body{
     .button_sing_up{
     background-color: gold;
     }
+    .section{
+        padding-top: 5vh;
+      padding-bottom: 5vh;
+      padding-left:10vw;
+        color: black;
+    }
+    .container{
+ display: flex;
+justify-content: space-between;
+}
+hr{
+    background-color: brown;
+    width: 30vw;
+}
+.button_cont{
+display: flex;
+align-items: end;
+padding-right: 2vw;
+}
+.button_cont button{
+width: 50px;
+height: 50px;
+color: white;
+background-color:black ;
+font-size: 30px;
+margin:5px;
+border-radius: 5px;
+border:0px;
+}
