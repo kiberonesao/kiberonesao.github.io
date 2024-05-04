@@ -1,6 +1,7 @@
 <html>
 <head>
 <link  rel="stylesheet" href="viiiks.css">
+<script src="etoViii.js"></script>
 </head>
 
 <body>
@@ -43,7 +44,14 @@
              <option>Мехико</option>
              <option>Мадрид</option>
              <option>Новосибирск</option>
-
+             <option>Кострома</option>
+             <option>Минск</option>
+             <option>Нижний Новгород </option>
+             <option>Екатеренбург</option>
+             <option>Токио</option>
+             <option>Красноярск</option>
+             <option>Уфа</option>
+             <option>Саратов</option>
              </select>
             </div>
            <div class="box">Дата приезда</div>
@@ -52,30 +60,102 @@
           </form>
             
      </div> 
-     
-     
-     <div class="section" id="popular">
-        <div class="container">
-            <div class="text_cont">
-            <h1>куда все ездят</h1> <hr>
-            <h6>Честно! там были люди</h6>
-            </div>
-
-            <div class="button_cont">
-                <button> < </button>
-                <button style="background-color: rgb(59, 92, 122);"> > </button>
+     <section name="popular">
+        <div class="intro">
+            <h1 class="intro_header">Туда часто ездят люди!</h1>
+            <hr>
+            <div class="intro_desc">
+                <p>Советуем туда съездить!</p>
+                <div class="button_div">
+                    <button class="left" onclick="scroll_left()"> < </button>
+                    <button class="right" onclick="scroll_right()"> > </button>
+                </div>
             </div>
         </div>
-        <div class="carousel">
-            <div class="text">
-                <p>Сочи</p>
-                <br>
-                <p>Я не знаю что еще придумать</p>
+        <div class="image_carousel">
+            <div class="image_card" id="card_0">
+                <div class="bottom_text" >
+                    <p>Красивый закат в Ульяновске </p>
+                </div>
+                <div class="bg_text">
+                    <span>Ульяновск</span><span class="prise"> 15$ </span><a href="https://ru.wikipedia.org/wiki/%D0%A3%D0%BB%D1%8C%D1%8F%D0%BD%D0%BE%D0%B2%D1%81%D0%BA"><button> купить</button> </a>
+
+                </div>
             </div>
+            <div class="image_card" id="card_1"> 
+                <div class="bottom_text" >
+                    <p>вечерняя прогулка по берегам в Сочи </p><br>
+                </div>
+                <div class="bg_text">
+                <span>Сочи</span><span class="prise"> 30$ </span><a href="https://ru.wikipedia.org/wiki/%D0%A1%D0%BE%D1%87%D0%B8"><button> купить</button> </a>
+            </div></div>
+                <div class="image_card" id="card_2">
+                    <div class="bottom_text" >
+                        <p>ночь в Мадриде</p></div>
+                        <div class="bg_text">
+                    <span>Мадрид</span><span class="prise"> 45$ </span><a href="https://ru.wikipedia.org/wiki/%D0%9C%D0%B0%D0%B4%D1%80%D0%B8%D0%B4"><button> купить</button> </a>
+                </div></div>
+                <div class="image_card" id="card_3">
+                    <div class="bottom_text" >
+                        <p>прогулка с друзьями в Лондоне</p></div>
+                        <div class="bg_text">
+                    <span>Лондон</span><span class="prise"> 35$ </span><a href="https://avatars.dzeninfra.ru/get-zen_doc/1936915/pub_61f75e8a05a98d250135a13a_61f760f98d15ef6917e0cb96/scale_1200"><button> купить</button> </a>
+                </div></div>
+                <div class="image_card" id="card_4">
+                    <div class="bottom_text" >
+                        <p>Мехико с высоты птичьего полёта</p></div>
+                        <div class="bg_text">
+                    <span>Мехико</span><span class="prise"> 25$ </span><a href="https://ru.wikipedia.org/wiki/%D0%9C%D0%B5%D1%85%D0%B8%D0%BA%D0%BE"><button> купить</button> </a>
+                </div></div>
+                <div class="image_card" id="card_5">
+                    <div class="bottom_text" >
+                        <p>Мосты в Санкт-Петербурге</p></div>
+                        <div class="bg_text">
+                    <span>Санкт-Петербург</span><span class="prise"> 17$ </span><a href="https://ru.wikipedia.org/wiki/%D0%A1%D0%B0%D0%BD%D0%BA%D1%82-%D0%9F%D0%B5%D1%82%D0%B5%D1%80%D0%B1%D1%83%D1%80%D0%B3"><button> купить</button> </a>
+                </div></div>
+                <div class="image_card" id="card_6">
+                    <div class="bottom_text" >
+                        <p>Оперный театр в Минске</p></div>
+                        <div class="bg_text">
+                    <span>Минск</span><span class="prise"> 23$ </span><a href="https://ru.wikipedia.org/wiki/%D0%9C%D0%B8%D0%BD%D1%81%D0%BA"><button> купить</button> </a>
+                </div></div>
+                <div class="image_card" id="card_7">
+                    <div class="bottom_text" >
+                        <p>Центр Токио</p></div>
+                    
+                    <div class="bg_text">
+                        <span>Токио</span><span class="prise"> 43$ </span><a href="https://ru.wikipedia.org/wiki/%D0%A2%D0%BE%D0%BA%D0%B8%D0%BE"><button> купить</button> </a>
+                    </div></div>
+                    
+                <div class="image_card" id="card_8">
+                    <div class="bottom_text" >
+                        <p>горы в Урале с высоты птичьего полёта (Октябрь)</p></div>
+                    
+                    <div class="bg_text">
+                        <span>Урал</span><span class="prise"> 23$ </span><a href="https://ru.wikipedia.org/wiki/%D0%A3%D1%80%D0%B0%D0%BB"><button> купить</button> </a>
+                   
+                    </div>
+                </div>
+                
+                
+                
+                
+                
+                </div>
+                    
+                
+                
         </div>
-        
-
-
-
-    </body> 
+    </section>
+    <form class="bottom_form">
+        <div id="bf_desc">
+            Подпишись, чтобы узнавать новости!
+        </div>
+        <div id="bf_imput">
+         <label for="email"  class="input_fiend" Ваш e-mail></label>
+         <input type="text" placeholder="">
+        </div>
+        <a href="https://www.youtube.com/watch?v=uDIlRjJsHSU"><button >Подписаться</button></a>
+    </form>
+</body>
 </html>

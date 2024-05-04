@@ -1,6 +1,5 @@
-::-webkit-scrollbar{
-    display: none;
-}
+::-webkit-scrollbar
+
 .classroot{
     position: fixed;
     height: 60px;
@@ -27,7 +26,7 @@ body{
     height:100vh;
     width:100vw; 
     background-size:cover;
-    background-repeat:no-repeat;
+    background-repeat:repeat;
     background-position: bottom center;
     background-image: url(https://img1.akspic.ru/attachments/originals/6/8/5/3/5/153586-windows-windows_10-windows_8_1-microsoft_windows-rtm-1920x1200.jpg);
 }
@@ -66,9 +65,7 @@ body{
 display: none;
 }
 
-.section:hover{
-display: ;
-}
+
 .section{
     padding-top:5vh;
     padding-bottom: 5vh;
@@ -85,7 +82,8 @@ display: ;
     padding-right:  2vw;
  }
 
- .button_cont button{
+ section button{
+    border: 0px;
     width: 50px;
     height: 50px;
     background-color: darkgreen;
@@ -94,3 +92,144 @@ display: ;
     border-radius: 5px;
     border: 0px;
  }
+ section{
+    padding-top:5vh;
+    padding-bottom: 5vh;
+    padding-left: 10vw;
+    padding-right: 10vw;
+    color: black;
+}
+h1{
+    font-size: 60px;
+    border-color: gold;
+    width: 30vw;
+}
+.intro_desc{
+    display: flex;
+    justify-content: space-between;
+}
+section .right{
+    background-color: aqua;
+}
+
+#card_1{
+    background-image: url(https://bgr.com/wp-content/uploads/2021/06/Windows-11-Leaks.jpg?quality=82&strip=all)
+
+}
+#card_2{
+    background-image: url(https://windowstune.ru/wp-content/uploads/2022/12/windows-10-oformlenie.jpg)
+
+}
+#card_3{
+    background-image: url(https://static.wikia.nocookie.net/7d5db291-d700-4b6a-944b-eb0c84bf5781)
+
+}
+#card_4{
+    background-image: url(https://i.imgur.com/8BE5ks2.jpg)
+
+}
+#card_5{
+    background-image: url(https://microsoftportal.net/uploads/posts/2014-12/1419519762_desk8888.png)
+
+}
+#card_6{
+    background-image: url(https://cdn.comss.net/img/012020/2019-12-25_21-06-19.jpg)
+
+
+}
+#card_7{
+    background-image: url(https://www.wikihow.com/images/f/f8/Perform-Maintenance-for-Windows-Vista-Step-20.jpg)
+
+}
+
+#card_8{
+    background-image: url(https://www.thevista.ru/files/images/gallery/3706/02.jpg)
+
+}
+
+#card_9{
+    background-image: url(https://overclockers.ru/st/legacy/blog/213212/116481_O.jpg)
+
+}
+
+#card_10{
+    background-image: url(https://latestuploads.net/wp-content/uploads/2017/07/windows_me-LatestUploads.net-Iso.jpg)
+
+}
+#card_11{
+    background-image: url(https://www.betaarchive.com/imageupload/1311294920.or.83457.png)
+}
+#card_12{
+    background-image: url(https://avatars.dzeninfra.ru/get-zen_doc/1897860/pub_5d1268fb57856200b006fd51_5d1269896f100900afa3576d/scale_1200)
+   
+}
+#card_13{
+    background-image: url(https://www.white-windows.ru/wp-content/uploads/2013/10/windows_95.jpg)
+   
+}
+
+
+.bottom_text{
+    padding: 10px;
+    width: 100%;
+    background-color: aqua;
+    color:darkgoldenrod;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+.image_card{
+    min-width: 27vh;
+    height: 48vh;
+    border-radius: 10px;
+    margin: 4vh;
+    display: flex;
+    align-items: end;
+    background-size: cover;
+   background-position:center center ;
+    border: 1px solid black;
+    transition:1s;
+}
+.image_carousel{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+     overflow: hidden;
+    transition: 1s;
+}
+
+.bg_text{
+    width: 27vh;
+    position: absolute;
+    transition: 1s;
+    opacity: 0;
+
+}
+.image_card:hover{
+    transform: translateY(-50px);
+     
+}
+.image_card:hover .bg_text{
+    transform: translateY(30px);
+    opacity:1;
+     
+}
+::-webkit-scrollbar{
+    display:none;
+}
+.bottom_form{
+    border:  1px gray solid;
+    border-radius: 10px;
+    background-color: white;
+    padding: 10px 10px 10px 10px;
+    margin: 0 20vh 0 20vh;
+    display: flex;
+    align-items: center;
+}
+#bf_desc,
+#bf_input{
+    flex:2;
+}
+.bottom_form button{
+    flex:1;
+}

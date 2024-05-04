@@ -3,7 +3,7 @@
 <link  rel="stylesheet" href="viiiks.css">
 <script src="scripts.js"></script>
 </head>
-
+ 
 <body>
     <header class="super_sait">
     
@@ -12,7 +12,7 @@
 
     </nav>
     <div class="menu_box">
-       <a href=""> <button  class="button_login" onclick="return false;">login</button>
+       <a href=""> <button class="button_login">login</button>
        <a href="" > <button class="button_sign_up">sign up</button></a>
  </header>
     <div class="hero">
@@ -21,12 +21,12 @@
             <a style="font-size:20px"> у нас самые выгодные цены </a>
 
             </div>
-         <form onsubmit=" aboba(); return false;" method="get" id="polosa" class="polosa">   
+         <form onsubmit="sikma(); return false" method="get" class="polosa">   
            <div class="box"></div>
            <div class="box">
-            <label for="destination"  >куда</label>
-            <select name="destination"  id="destination" class="input_field">
-                <option>Дубаи</option>  
+            <label for="destination" >куда</label>
+            <select name="destination" id="destination" class="input_field">
+                <option>Дубаи</option>
                 <option>Мальдивы</option>
                 <option>Париж</option>
                 <option>Венеция</option>
@@ -57,7 +57,7 @@
             
             <div class="box">
              <label for="orign" >откуда</label>
-             <select name="orign" class="input_field"  id="orign" placeholder="Москва">
+             <select name="orign" id="orign" placeholder="Москва" class="input_field">
                 <option> Москва</option>
                 <option>Тула</option>
                 <option> Новосибирск</option>
@@ -66,21 +66,18 @@
             </select>    
            </div>
 
-
-
-           <div class="box">
-                <label for="orign" >Дата вылета</label>
-                <input type="date" name="orign" class="input_field" id="orign" >
-           </div>
-
-
+           <div class="box" >
+                <label for="date_of_travel" >Дата отправления</label>
+                <input type="date" id="dot" placeholder="01.01.24" class="input_field">
+            </div>
 
            <div class="box">
-            <label for="orign" >Дата обратного</label>
-            <input type="date" name="orign" class="input_field" id="orign" placeholder="Москва">
-       </div>
+                <label for="date_of_return" >Дата обратного перелета</label>
+                <input type="date" id="dor" placeholder="02.01.24" class="input_field">
+            </div>
 
-          <a href="https://www.youtube.com/watch?v=uDIlRjJsHSU"><button class="box">Забронировать</button></a>
+          <a href="https://www.youtube.com/watch?v=uDIlRjJsHSU">
+            <button class="box" id="form_1_b" onclick="hehe()">Забронировать</button></a>
 
            </form>
         </div>
@@ -94,8 +91,8 @@
                 
                   <p>Тут будут наши популярные направления</p>
                   <div class="button_div">
-                      <button class="left" onclick="scroll_left()"><</button>
-                      <button class="right" onclick="scroll_right()">></button>
+                      <button class="left" onclick="scroll_l()" ><</button>
+                      <button class="right" onclick="scroll_r()" >></button>
                   </div>
               </div>
           </div>

@@ -108,13 +108,139 @@ hr{
     padding-right: 2vw;
 }
 
-.button_cont button{
+section button{
+    border: 0px;
     width: 50px;
     height: 50px;
     color: lavenderblush;
-    background-color: rgb(68, 145, 109);
+    background-color: rgb(57, 142, 153);
     font-size: 30px;
     margin: 5px;
     border-radius: 5px;
     border: 0px;
+}
+section{
+    padding-left: 5vw;
+    padding-right: 10vw;
+    padding-top: 5vh;
+    padding-bottom: 5vh;
+}
+h1{
+    font-size: 35px;
+}
+hr{
+    margin: 0px;
+    border-color: #428b79;
+    width: 30vw;
+}
+.intro_desc{
+    display: flex;
+    justify-content: space-between;
+}
+section .right{
+    background-color: #4a947f;
+}
+.image_card{
+    min-width: 27vh;
+    max-width: 27vh;
+    height: 48vh;
+    border-radius: 10px;
+    margin: 4vh;
+    background-size:cover ;
+    display: flex;
+    align-items: end;
+    flex-direction: column;
+    justify-content: flex-end;
+    transition: 1s;
+   
+}
+#card_0{
+    background-image : url(https://sun9-63.userapi.com/sun9-53/impf/L2l68onB1tJ6a1uGnUpkf-O-PjkK6yB7q-jb9A/WpIGrhzblCc.jpg?size=604x604&quality=96&sign=c01c2868dee555683b50f9f067e83303&type=album);
+    background-color: black;
+    background-size: cover;
+
+}
+#card_1{
+    background-image: url(https://gondo.ru/wp-content/uploads/2022/05/prilet1000-3.jpg);
+    background-size: cover;
+
+}
+#card_2{
+    background-image: url(https://img.goodfon.ru/original/3869x2581/1/9b/madrid-ispaniya-noch-madrid.jpg);
+    background-size: cover;
+
+}
+#card_3{
+    background-image: url(https://mykaleidoscope.ru/x/uploads/posts/2022-09/1663336644_57-mykaleidoscope-ru-p-angliya-london-pinterest-58.jpg);
+    background-size: cover;
+
+}
+#card_4{
+    background-image: url(https://upload.wikimedia.org/wikipedia/commons/thumb/e/e0/Atardecer_En_Bellas_Artes_Vertical_%28128312121%29.jpeg/760px-Mapcarta.jpg);
+    background-size: cover;
+
+}
+#card_5{
+    background-image: url(https://mykaleidoscope.ru/x/uploads/posts/2022-09/thumbs/1663132873_16-mykaleidoscope-ru-p-dvortsovii-most-sankt-peterburg-vkontakte-17.jpg);
+    background-size: cover;
+
+}
+#card_6{
+    background-image: url(https://motellook.ru/wp-content/uploads/3/f/9/3f9d106d281ab615e70b8294f423199f.jpeg);
+    background-size: cover;
+
+}
+#card_7{
+    background-image: url(https://sun9-49.userapi.com/impf/qny4_c99yvjhqvBK0rGuyzrWNZZAQRmHrONwuA/-yQZ7YiAl9E.jpg?size=778x960&quality=96&sign=739f5bb1f77b4a2a81dc6e4b22935453&c_uniq_tag=dbKUZEshMxS12Cg6_PK7hkTYD91E4GHKzhKoLPVJJUE&type=album);
+    background-size: cover;
+
+}
+#card_8{
+    background-image: url(https://sun9-66.userapi.com/impg/1XHz-pNv_5k62t7gYZ7vFsJXqgmJ2NgXO7cdsQ/UZiRgNKhMxw.jpg?size=605x807&quality=95&sign=39a8563c3c60e9067fa322e5c2c4001a&c_uniq_tag=IUvyZeC_B7LMlHGx1MQlXvQmtTVaNh_usEnAzsfMBPI&type=album);
+    background-size: cover
+}
+
+.bottom_text{
+    background-color: black;
+    width:100%; 
+    box-sizing: border-box;
+    padding: 10px;
+    color: rgb(255, 255, 255);
+}
+.image_carousel{
+    
+    display: flex;
+    transition: 3s;
+}
+::-webkit-scrollbar{
+    display: none;
+} 
+.bg_text{
+    width: 27vh;
+    position: absolute;
+    transition: 1s;
+    opacity: 0;
+}
+.image_card:hover{
+    transform: translateY(-50px);
+}
+.image_card:hover .bg_text{
+    transform: translateY(50px);
+    opacity: 1;
+}
+.bottom_form{
+    border: 1px coral;
+    border-radius: 10px;
+    background-color: rgb(200, 250, 250);
+    padding: 10px 50px 10px 50px;
+    margin: 0 20vh 0 20vh;
+    display: flex;
+    align-items: center;
+}
+#bf_desc,
+#bf_imput{
+    flex:2;
+}
+.bottom_form button{
+    flex: 1;
 }

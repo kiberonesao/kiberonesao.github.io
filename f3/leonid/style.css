@@ -99,7 +99,8 @@ hr{
     align-items: end;
     padding-right: 2vw;
 }
-.button_cont button{
+section button{
+    border: 0px;
     width: 50px;
     height: 50px;
     color: white;
@@ -108,4 +109,90 @@ hr{
     margin: 5px;
     border-radius: 5px;
     border: 0px;
+}                                                                                                                   
+section{
+    padding-left: 10vw;
+    padding-right: 10vw;
+    padding-top: 5vh;
+    padding-bottom: 5vh;
+}
+h1{
+    font-size: 60 ;
+}
+hr{
+    margin: 0px;
+    border-color:orangered ;
+    width: 30vw;
+}
+.intro_desc{
+    display: flex;
+    justify-content: space-between;
+}
+section .right{
+    background-color: rgb(255, 0, 0);
+}
+.image_card{
+    min-width: 27vh;
+    height: 48vh;
+    border-radius:10px ;
+    margin: 4vh;
+    background-size: cover;
+    display: flex;
+    align-items: end;
+    transition: 1s;
+}
+#card_0{
+    background-image: url(https://s0.rbk.ru/v6_top_pics/media/img/9/12/756091564041129.jpg);
+}#card_1{
+    background-image: url(https://sdelanounas.ru/i/a/s/5/aS5pbWd1ci5jb20vS0NCd29YeS5qcGc_X19pZD01NTQ5MQ==.jpg);
+}#card_2{
+    background-image: url(https://office-news.ru/wp-content/uploads/2020/09/SHHelkovskij_1574880692-720x893.jpeg);
+}#card_3{
+    background-image: url(https://supersnimki.ru/images/pub/2019/01/01/41c9e6ab-0da5-11e9-9cac-b00a117618ae_original.jpg?779123);
+}#card_4{
+    background-image: url(https://i4.photo.2gis.com/images/branch/0/30258560051517732_2460.jpg);
+}#card_5{
+    background-image: url(https://sun9-1.userapi.com/impf/c834100/v834100253/f6177/rAuKcKsGDzk.jpg?size=399x490&quality=96&sign=68009c05446047f8eb992f6f6060ac7c&type=album);
+}
+.bottom_text{
+    padding: 10px;
+    background-color: black;
+    color: white;
+    width: 100%;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+.image_carousel{
+    display: flex;
+    transition:1s;
+}
+.image_card:first-child{
+    margin-left: 0;
+}
+.bg_text{
+    width: 27vh;
+    position: absolute;
+    transition: 1s;
+}
+.image_card:hover{
+    transform: translateY(-45px);
+}
+.image_card:hover .bg_text{
+    transform: translateY(30px);
+}
+.bottom_form{
+    border: 1px gray solid;
+    border-radius: 10px;
+    background-color: white;
+    padding: 10px 50px 10px 50px;
+    margin: 0 20vh 0 20vh;
+    display: flex;
+    align-items: center;
+} 
+#bf_desc,
+#bf_input{
+    flex:2;
+}
+.bottom_form button{
+    flex:1;
 }

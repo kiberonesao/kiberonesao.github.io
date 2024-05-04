@@ -1,0 +1,269 @@
+.info{
+    margin-left: 50vh;
+}
+
+.hero{
+    height: 100vh;
+    width: 100vw;
+    background-color:rgba(0,0,0,0.5);
+    background-image: url(https://mykaleidoscope.ru/x/uploads/posts/2022-10/1666398982_58-mykaleidoscope-ru-p-kulturnii-landshaft-khalshtatt-dakhshtain-65.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: bottom center;
+    background-blend-mode:multiply;
+    font-size: 18px;
+}
+
+body{ margin:0}
+.polosa{
+    width: 70vw;
+    display: flex;
+}
+
+.box{
+    flex:2;
+    background-color: rgb(53, 167, 161);
+    height: 100px;
+    flex-direction: column;
+    align-items: flex-start;
+    color: black;
+    justify-content: center;
+    display:flex ;
+
+}
+
+.polosa button{
+    background-color: coral;
+    color: white;
+    flex:1;
+    border-bottom-right-radius:10px;
+    border-top-right-radius:10px;
+    border:0;
+}
+
+.super_sait{
+    position: fixed;
+    height: 60px;
+    background-color: transparent;
+    width: 98vw;
+    color: white;
+    font-size: 20px;
+    font-weight: bold;
+    display: flex;
+    justify-content: space-between;
+    padding-inline: 1vw;
+    align-items: center;
+}
+
+nav a:link {
+    color:yellowgreen;
+    text-decoration: none;
+}
+
+nav a:visited{
+    color:indianred;
+}
+
+nav a:hover, nav a:active{
+    text-decoration: underline;
+}
+
+.menu_box button{
+    border-radius: 5px;
+    height: 30px;
+    width: 100px;
+    font-size: inherit; 
+    font-weight: inherit;
+    color: white;
+    border: 0px;
+}
+
+#mb1 a{
+    text-decoration: none;
+}
+.button_login{
+    color: rgb(184, 184, 184) !important;
+    background-color: transparent;
+}   
+
+.button_sign_up{
+    background-color: brown;
+}
+
+.button_login:hover{
+    background-color: transparent;
+    border: solid rgb(148, 148, 148) 2px;
+    transition: 0s;
+}
+
+.button_sign_up:hover{
+    background-color: rgb(99, 22, 22);
+    transition: 1s;
+}
+
+.section{
+    padding-top: 5vh;
+    padding-bottom: 5vh;
+    padding-left: 10vw;
+    color:black;
+
+}
+
+.container{
+    display: flex;
+    justify-content: space-between;
+}
+
+hr{
+    border: solid 1px brown;
+    margin: 0px;
+    width: 35vw;
+}
+
+.button_cont{
+    display: flex;
+    align-items: end;
+    padding-right: 2vw;
+}
+
+.button_cont button{
+    width: 50px;
+    height: 50px;
+    color:white;
+    background-color: black;
+    font-size: 30px;
+    margin:5px;
+    border-radius:5px;
+    border: 0px;
+}
+
+h1{
+    font-size: 50px;
+}
+
+.popular_card{
+    min-width:27vh;
+    max-width:27vh;
+    height:48vh;
+    border-radius:15px;
+    margin:4vh;
+    display: flex;
+    align-items: end;
+    flex-direction: column;
+    justify-content: flex-end;
+    transition: 1s;
+}
+
+#ks3{
+    font-size: 20px;
+}
+#card_0{
+    background-image: url(https://sun9-35.userapi.com/impg/a6v9tN2uN_zVt-WW9K4EJIl-6fJXEzQMHOJFWw/5UR7QLV1Rhc.jpg?size=453x604&quality=95&sign=a529caa9415b484bd8440aa92a56bbe6&type=album) ;
+    background-size: cover;
+}
+
+#card_1{
+    background-image: url(https://mykaleidoscope.ru/x/uploads/posts/2022-09/1663339587_4-mykaleidoscope-ru-p-glavnii-khram-sankt-peterburga-pinterest-5.jpg);
+    background-size: cover;
+}
+
+#card_2{
+    background-image: url(https://i.pinimg.com/originals/cb/b3/9d/cbb39d5380a7b2394d8a1578e70cfee5.jpg);
+    background-size: cover;
+}
+
+#card_3{
+    background-image: url(https://mykaleidoscope.ru/x/uploads/posts/2022-09/1663120144_36-mykaleidoscope-ru-p-eifeleva-bashnya-v-parizhe-pinterest-37.jpg);
+    background-size: cover;
+}
+
+#card_4{
+    background-image: url(https://sun9-49.userapi.com/impf/qny4_c99yvjhqvBK0rGuyzrWNZZAQRmHrONwuA/-yQZ7YiAl9E.jpg?size=778x960&quality=96&sign=739f5bb1f77b4a2a81dc6e4b22935453&c_uniq_tag=dbKUZEshMxS12Cg6_PK7hkTYD91E4GHKzhKoLPVJJUE&type=album);
+    background-size: cover;
+}
+
+#card_5{
+    background-image: url(https://s2.best-wallpaper.net/wallpaper/iphone/1503/Berlin-Germany-city-night-lights-buildings-river_iphone_640x1136.jpg);
+    background-size: cover;
+}
+
+#card_6{
+    background-image: url(https://i.pinimg.com/originals/4a/ad/e5/4aade5eee4961c220cd74d16d29b2e65.jpg);
+    background-size: cover;
+}
+
+#card_7{
+    background-image: url(https://magnitico.com/wp-content/uploads/2020/05/eoagr_zwkayopwo.jpg);
+    background-size: cover;
+}
+
+.text{
+    font-size: 18px;
+    padding: 10px;  
+    background-color: rgba(0, 0, 0, 0.5);
+    color: white;
+    width: 100%;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    box-sizing: border-box;
+}
+
+.carousel{
+    display: flex;
+    transition: 1s;
+}
+
+::-webkit-scrollbar{
+    display: none;
+}
+
+.popular_card:first-child{
+    margin-left: 0;
+}
+
+.bg_text{
+    font-size: 17.7px;
+    width: 27vh;
+    transition: 1s;
+    position: absolute;
+    opacity: 0;
+}
+
+.popular_card:hover{
+    transform: translateY(-30px);
+}
+
+.popular_card:hover .bg_text{
+    transform: translateY(30px);
+    opacity: 1;
+}
+
+.prise{
+    padding-right:12px;
+    padding-left: 8px;
+    color: rgb(20, 158, 82);
+}
+
+.bottom_form{
+    border: 1px gray solid;
+    border-radius: 10px;
+    background-color: white;
+    padding: 10px 50px 10px 50px;
+    margin: 0 20vh 0 20vh;
+    display: flex;
+    align-items: center;    
+}
+
+#bf_desc{
+    font-size: 50px;
+}
+
+#bf_desc,
+#bf_input{
+    flex: 2;
+}
+
+.bottom_form button{
+    flex: 1;
+}
+

@@ -1,6 +1,7 @@
 <html>
 <head>
-<link rel="stylesheet" href="scriptnameilya.css">
+    <link rel="stylesheet" href="scriptnameilya.css">
+    <script src="script.js"></script>
 </head>
 
 <body>
@@ -19,49 +20,123 @@
          <h1 style="font-size:70px; padding-top:5vh"> Это обои Windows 8.1 </h1>
 
 
-    <form action="" method="get" class="likvidirovanie">
+    <form onsubmit=" minecraft(); return false; " method="get" class="likvidirovanie">
         <div class="box"></div>
         <div class="box">
-            <label for="destinatioin" class="input_field">Пуск какой Windows</label>
-            <input typea="text" id="destination" placeholder="8.1">
+            <label for="destinatioin" >Пуск какой Windows</label>
+            <input type="text" id="destination" class="input_field" placeholder="8.1">
         </div>
         <div class="box">Панель задач</div>
-        <div class="box">Свернуть</div>
-        <div class="box">Развернуть</div>
-        <a href="https://youtu.be/dQw4w9WgXcQ?si=BompMQC0Yi3DRAiM"> <button class="box">Закрыть</button>  </a>
+        <div class="box">
+            <label for="destinatioin" >Дата выхода</label>
+            <input type="date" id="e2" class="input_field" placeholder="1.1.2020">
+        </div>
+        <div class="box">
+            <label for="destinatioin" >Дата конца подержки</label>
+            <input type="date" id="e3" class="input_field" placeholder="">
+        </div>
+        <a href="https://youtu.be/dQw4w9WgXcQ?si=BompMQC0Yi3DRAiM"><button class="box">Закрыть</button></a>
     </form>
 
     </div>
-<div class="section" id="popular">
-    <div class="container">
-        <h1></h1>
-        <div class="text_cont">
-            <hr>
-            <h6></h6>
+    <section name="popular">
+        <div class="intro">
+            <h1 class="intro_header">Популярные Windows</h1>
+            <div class="intro_desc">
+                <p>Тут будут популярные  Windows от Microsoft</p>
+                <div class="button_div">
+                    <button class="left" onclick="scroll_right()"><</button>
+                    <button class="right" onclick="scroll_left()">></button>
+                
+                </div>
+            </div>
         </div>
-        <div class="button_cont">
-            <button> < </button>
-            <button> > </button>
+        <div class="image_carousel">
+            <div class="image_card" id="card_1">
+                <div class="bottom_text">   
+                    <p>Windows 11</p>
+                </div>
+            </div>
+            <div class="image_card" id="card_2">
+                <div class="bottom_text">   
+                    <p>Windows 10</p>
+                </div>
+            </div>
+            <div class="image_card" id="card_3">
+                <div class="bottom_text">   
+                    <p>Не поддерживаемые Windows</p>
+                </div>
+            </div>
+            <div class="image_card" id="card_4">
+                <div class="bottom_text">   
+                    <p>Windows 8.1</p>
+                </div>
+            </div>
+                    <div class="image_card" id="card_5">
+                        <div class="bottom_text">   
+                            <p>Windows 8</p>
+                        </div>
+                    </div>
+                    <div class="image_card" id="card_6">
+                        <div class="bottom_text">
+                            <p>Windows 7</p>
+                        </div>
+                    </div>
+                    <div class="image_card" id="card_7">
+                        <div class="bottom_text">
+                            <p>Windows Vista</p>
+                        </div>
+                    </div>
+                    <div class="image_card" id="card_8">
+                        <div class="bottom_text">
+                            <p>Windows Longhorn</p>
+                        </div>
+                    </div>
+
+                    <div class="image_card" id="card_9">
+                        <div class="bottom_text">
+                            <p>Windows XP</p>
+                        </div>
+                    </div>
+                    <div class="image_card" id="card_10">
+                        <div class="bottom_text">
+                            <p>Windows ME</p>
+                        </div>
+                    </div>
+                    <div class="image_card" id="card_11">
+                        <div class="bottom_text">
+                            <p>Windows NT 4.0</p>
+                        </div>
+                    </div>
+                    <div class="image_card" id="card_12">
+                        <div class="bottom_text">
+                            <p>Windows 98</p>
+                        </div>
+                    </div>
+                    <div class="image_card" id="card_13">
+                        <div class="bottom_text">
+                            <p>Windows 95</p>
+                        </div>
+                        
+                    </div>
+                    
+                </div>
+            </div>
+
         </div>
-    </div>
-        <div class="ghewbfguab">
-            <div class="popular_card" id="000">
-                <div class="dfsacg">
-                <p>ywqrf</p>
-                <br>
-                <p> wtay8eh</p>
-            ''''''</div>
-
-
-
-
-
+    </section>
+    <form class="bottom_form">
+        <div id="bf_desc">
+            Windows 10 Activition!Ссылка virus.com
         </div>
+        <div id="bf_input">
+            <label for="email" class="input_field">Ваш e-mail или номер</label>
+            <input type="text" placeholder="example@gmail.com/+7777777">
+        </div>
+        <button id="bf_button">
+            Пёрнуть
+        </button>
 
-
-    </div>
-
-</div>
 
 
 
