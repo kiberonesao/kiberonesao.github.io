@@ -1,0 +1,161 @@
+<html>
+<head>
+<link  rel="stylesheet" href="viiiks.css">
+<script src="f.js"></script>
+</head>
+
+<body>
+    <header class="super_sait">
+    
+<nav>
+    <a href="#">о нашей компании</a>
+
+    </nav>
+    <div class="menu_box">
+       <a href=""> <button class="button_login">login</button>
+       <a href="" > <button class="button_sign_up">sign up</button></a>
+ </header>
+    <div class="hero">
+            <div style=" color:white; padding:10%; ">
+            <h1> покупай у нас путевки!</h1>
+            <a style="font-size:20px"> у нас самые выгодные цены </a>
+
+            </div>
+         <form onsubmit="validate();return false; " method="get" id="b1" class="polosa">   
+           <div class="box"></div>
+           <div class="box">
+            <label for="destination"> куда</label>
+            <select name="destination" id="destination" class="input_field">
+                <option>Дубаи</option>
+                <option>Мальдивы</option>
+                <option>Париж</option>
+                <option>Венеция</option>
+                <option>Москва</option>
+                <option>Рим</option>
+                <option>Пекин</option>
+                <option>Берлин</option>
+                <option>Лоян</option>
+                <option>Зеленоград</option>
+                <option>Токио</option>
+                <option>Амстердам</option>
+                <option>Вена</option>
+                <option>Лондон</option>
+                <option>Стамбул</option>
+                <option>Афины</option>
+                <option>Сидней</option>
+                <option>Будапешт</option>
+                <option>Мюнхен</option>
+                <option>Прага</option>
+                <option>Барселона</option>
+                <option>Копенгаген</option>
+                <option>Великий Новгород</option>
+
+            </select>
+          </div>
+
+          
+            
+            <div class="box">
+             <label for="orign" >откуда</label>
+             <select name="orign" class="input_field" id="orign" placeholder="Москва">
+                <option> Москва</option>
+                <option>Тула</option>
+                <option> Новосибирск</option>
+                <option> Владивосток</option>
+
+            </select>    
+           </div>
+
+           <div class="box">
+                <label for="orign" >откуда</label>
+                <input type="date" name="orign" class="input_field" id="orign" placeholder="10.10.20000">
+        
+            </div>
+           <div class="box">
+                <label for="orign" >откуда</label>
+                <input type="date" name="orign" class="input_field" id="orign" placeholder="10.10.1">
+           </div>
+
+          <a href="https://www.youtube.com/watch?v=uDIlRjJsHSU"><button class="box">Забронировать</button></a>
+
+           </form>
+        </div>
+        
+        <div class="section" id="pop"></div>
+        <section name="popular">
+          <div class="intro">
+              <h1 class="intro_header">популярные направления</h1>
+              <hr>
+              <div class="intro_desc">
+                
+                  <p>Тут будут наши популярные направления</p>
+                  <div class="button_div">
+                      <a> <button class="left"></button> </a>
+                      <a> <button class="right">></button> </a>
+                  </div>
+              </div>
+          </div>
+          <div class="image_carousel">
+              <div class="image_card" id="card_0">
+                  <div class="bottom_text" >
+                      <p>Крейсер "Аврора"</p>
+                      <p>Санкт-Петербург</p>
+                  </div>
+                  <div class="bg_text">
+                    Париж 10$<button>Купить</button>
+                  </div>
+              </div>
+
+              <div class="image_card" id="card_1">
+                <div class="bottom_text" >
+                    <p>Крейсер "Аврора"</p>
+                    <p>Санкт-Петербург</p>
+                </div>
+                <div class="bg_text" >
+                    <span> Конго </span><span class="price">10$  </span> <button>Купить</button>
+                  </div>
+            </div>
+            <div class="image_card" id="card_2">
+                <div class="bottom_text" >
+                    <p>Крейсер "Аврора"</p>
+                    <p>Санкт-Петербург</p>
+                </div>
+            </div>
+            <div class="image_card" id="card_3">
+                <div class="bottom_text" >
+                    <p>Крейсер "Аврора"</p>
+                    <p>Санкт-Петербург</p>
+                </div>
+            </div>
+            <div class="image_card" id="card_4">
+                <div class="bottom_text" >
+                    <p>Крейсер "Аврора"</p>
+                    <p>Санкт-Петербург</p>
+                </div>
+            </div>
+            <div class="image_card" id="card_5">
+                <div class="bottom_text" >
+                    <p>Крейсер "Аврора"</p>
+                    <p>Санкт-Петербург</p>
+                </div>
+            </div>
+            
+          </div>
+      </section>
+
+    <form class="bottom_form">
+        <div id="bf_desc">Подпишись на нас</div>
+
+        <div id="bf_input">
+            <label for="email" class="input_field">Ваш e-mail</label>
+            <input  type="text" placeholder="ВасяПупкин@yandex.ru">
+        </div>
+        
+        <button id="bf_button">
+            Подписаться
+        </button>
+    </form>
+
+    </body>
+</html>
+
