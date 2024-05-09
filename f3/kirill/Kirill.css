@@ -9,7 +9,7 @@
 }
 
 .top_menu{
-   display: fixed;
+   display: fixed; 
    height: 60px;
    background-color:transparent;
    width: 98vw;
@@ -54,15 +54,16 @@ nav a:visited{
 
                 .button_sing_up{
                     background-color: brown;
-
-                    }
+                }
+                    
 
                     .button_sing_up:hover{
                         font-weight: bold;
                         border: solid white 1px;
                         transition: 1s;
+                    }
 
-                        }
+    
       .section{
       padding-top: 5vh;
       padding-left:5vw;
@@ -70,3 +71,114 @@ nav a:visited{
       align-items: end;
       padding-right: 2vw;
       }
+
+
+    section{
+        padding-left: 10vw;
+        padding-right: 10vw;
+        padding-top: 5vh;
+        padding-bottom: 5vh;
+
+    }
+
+    h1{
+        font-size: 50px;
+        }
+
+       H1{
+
+        }
+
+        HR{
+            margin: 0px;
+            width: 10px;
+            }
+
+            .intro_desc{
+   }
+   .image_card{
+    width: 27vh;
+    height: 48vh;
+    border-radius: 10px;
+    padding: 4vh;
+    background-size: color;
+    display: flex;
+    align-items: end;
+    transition: 1s;
+    }
+    #card_1{
+        background-image: url(http://htls.ru/peoples/russia/belgorodskaya_obl/map_bg.jpg);
+        background-size: cover;
+        background-position: center center;
+    }
+    #card_2{
+        background-image: url(https://st5.stpulscen.ru/images/product/352/866/829_original.jpg);
+        background-size: cover;
+        background-position: center center;
+    }
+    #card_3{
+        background-image: url(https://i.ytimg.com/vi/l8e8d-7zqAY/maxresdefault.jpg);
+        background-size: cover;
+        background-position: center center;
+    }
+    #card_4{
+        background-image: url(https://zemlyanka-v.ru/upload/shop_1/6/4/9/item_64990/shop_property_file_64990_110482.jpg);
+        background-size: cover;
+        background-position: center center;
+    }
+    #card_5{
+        background-image: url(https://ae04.alicdn.com/kf/He0c4bffac5aa4037a6176f7498d1a943P.jpg);
+        background-size: cover;
+        background-position: center center;
+    }
+ .bottom_text{
+     padding: 10px;
+     background-color: paleturquoise(0,0,0,0.5);
+     color: sienna;
+     width: 100%;
+     border-bottom-left-radius: 10px ;
+     border-bottom-left-radius: 10px;
+ }
+
+     .image_carousel{
+        display: flex;
+    }
+
+
+.image_card:first-child
+
+.bg_text{
+    width: 27vh;
+    position: absolute;
+    transition: 1s;
+
+
+}
+
+.image_card:hover{
+    transform: translateY(-30px);
+    }
+    .image_card:hover .bg_text{
+        transform: translateY(30px);
+        opacity: 1
+    }
+
+
+    .bottom_form{
+        border: 1px gray solid;
+        border-radius: 10px;
+        background-color: white;
+        padding: 10px;
+        margin: 0 20vw 0 20vw;
+        display:flex;
+        align-items: center;
+      
+    } 
+
+    #bf_desc,
+    #bf_input{
+        flex:2;
+        }
+        .bottom_form button{
+            flex:1;
+           }

@@ -10,6 +10,7 @@
     background-blend-mode:multiply;
 }
 body{ margin:0}
+
 .polosa{
     width: 70vw;
     display: flex;
@@ -87,7 +88,7 @@ nav a:hover, nav a :active{
 }
 
 .hero2{
-    height: 120vh;
+    height: 100vh;
     width: 100vw;
     background-color:rgba(0,0,0,0.5);
     background-image: url(https://avatars.mds.yandex.net/i?id=d5014ad06c404204b831865218b10516-4576013-images-thumbs&n=13);
@@ -102,57 +103,156 @@ nav a:hover, nav a :active{
     display: flex;
 }
 
-.box2{
-    flex:2;
-    background-color: rgb(0, 0, 0);
-    background-image:url(https://avatars.mds.yandex.net/i?id=383618a2f5a43430497037a51324ab22d16f706e-9066494-images-thumbs&ref=rim&n=33&w=356&h=200);
-    height: 300px;
-    width: 300px;
-    flex-direction: column;
-    align-items: flex-start;
-    color: black;
-    justify-content: center;
-    display:flex ;
-}
 
-.box3{
-    flex:2;
-    height: 300px;
-    width: 100px;
-    flex-direction: column;
-    align-items: flex-start;
-    color: black;
-    justify-content: center;
-    display:flex ;
-}
-
-.box4{
-    flex:2;
-    background-color: rgb(0, 0, 0);
-    background-image:url(https://i.ytimg.com/vi/RLx5kFzXVqc/maxresdefault.jpg);
-    height: 300px;
-    width: 300px;
-    flex-direction: column;
-    align-items: flex-start;
-    color: black;
-    justify-content: center;
-    display:flex ;
-}
 .section{
     padding-left:10vw;
 }
 
-.card{
+.image_card{
+    margin: 4vh;
     border-radius: 25px;
     background-color: white;
-    height: 400px;
-    width: 300px;
+    height: 480px;
+    min-width: 270px;
     background-size: cover;
     background-repeat: no-repeat;
     background-position: bottom center;
     background-blend-mode:multiply;
+    display: flex;
+    align-items: end;
+    flex-direction: column;
+    justify-content: flex-end;
+    transition: 1s;
+}
+.image_card:first-child{
+    margin-left:0px;
+}
+#card_0{
+    background-image: url( https://i.ytimg.com/vi/pT3RO_ykiWQ/maxresdefault.jpg);
+    background-size: cover;
+    background-position: center;
+
 }
 
-#card1{
-    background-image: url(https://i.ytimg.com/vi/CsT6bjRju8M/maxresdefault.jpg );
+#card_1{
+    background-image: url(https://i.ytimg.com/vi/J7WEYIAMHdI/maxresdefault.jpg);
+    background-size: cover;
+    background-position: center;
+
+}
+
+#card_2{
+    background-image: url(https://i.ytimg.com/vi/JIMCgTEU3Ts/maxresdefault.jpg);
+    background-size: cover;
+    background-position: center;
+
+}
+
+#card_3{
+    background-image: url(https://i.ytimg.com/vi/eA8sbauj8YA/maxresdefault.jpg?sqp=-oaymwEmCIAKENAF8quKqQMa8AEB-AH-CIAC0AWKAgwIABABGHIgZCgiMA8=&amp;rs=AOn4CLA93UyvWzCcwq_vEx1_a65InQQ8IA);
+    background-size: cover;
+    background-position: center;
+
+}
+
+#card_4{
+    background-image: url(https://i.ytimg.com/vi/z8BM-aRut_s/maxresdefault.jpg);
+    background-size: cover;
+    background-position: center;
+
+}
+
+#card_5{
+    background-image: url(https://i.ytimg.com/vi/o-CPJwgTGlM/maxresdefault.jpg);
+    background-size: cover;
+    background-position: center;
+
+}
+
+section{
+    padding-left: 5vw;
+    padding-right: 5vw;
+    padding-top: 5vh;
+    padding-bottom: 5vh;
+    color: white;
+}
+
+h1{
+    font-size: 60px;
+}
+
+hr{
+    margin: 0px;
+    border-color: orangered;
+    width: 30vw;
+}
+
+.intro_desc{
+    display: flex;
+    justify-content: space-between;
+}
+
+ section button{
+    border: 0px;
+    width: 50px;
+    height: 50px;
+    color: #fff;
+    background-color: #000000;
+    font-size: 30px;
+    margin: 5px;
+    border-radius: 3px;
+}
+
+ .bottom_text{
+    padding: 10px;
+    background-color: rgb(36, 36, 36);
+    color: white;
+    width: 100%;
+    border-bottom-right-radius: 10px;
+    border-bottom-left-radius: 10px;
+    box-sizing: border-box;
+}
+
+.image_carousel{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    width: 90vw;
+    transition:1S;
+}
+
+.bg_text{
+    width: 27vh;
+    position: absolute;
+    transition: 1s;
+    opacity:0;
+    left:2vh;
+}
+
+.image_card:hover{
+    transform: translateY(-50px);
+}
+
+.image_card:hover .bg_text{
+    transform: translateY(30px);
+    opacity:1;
+}
+
+.bottom_form{
+    border: 1px rgb(255, 255, 255) solid;
+    border-radius: 10px;
+    background-color: white;
+    padding: 10px;
+    margin:0 20vh 0 20vh;
+    display: flex;
+    align-items: center;
+}
+
+#bf_desc,
+#bf_input{
+    flex:2;
+}
+
+.bottom_form button{
+    flex:1;
 }
